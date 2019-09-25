@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Pomnozi";
+}
+
+<h2>Pomnozi</h2>
+
+@using (Html.BeginForm()) {
+
+    @Html.Label("Prvi broj:")
+    @Html.TextBox("e")
+    @Html.Label("Drugi broj:")
+    @Html.TextBox("f")
+    <br />
+    <input type="submit" value="Pomnozi" />
+
+
+
+}
